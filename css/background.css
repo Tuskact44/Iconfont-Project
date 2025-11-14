@@ -9,9 +9,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* 星云全屏显示，与你原本的效果一致 */
+  height: 100%;
   z-index: 1; /* 低层级，确保导航栏能覆盖它 */
-  pointer-events: none; /* 关键！让星云不拦截点击，点击会穿透到下方导航栏 */
+  pointer-events: none;
 
 }
 
@@ -26,7 +26,7 @@
           radial-gradient(1px 1px at 25% 30%, rgba(255,255,255,0.9), transparent),
           radial-gradient(2px 2px at 15% 45%, rgba(220,255,230,0.8), transparent),
           radial-gradient(1px 1px at 40% 60%, rgba(255,255,255,0.6), transparent),
-          radial-gradient(3px 3px at 10% 20%, rgba(220,255,230,0.9), transparent), /* 亮星 */
+          radial-gradient(3px 3px at 10% 20%, rgba(220,255,230,0.9), transparent),
           radial-gradient(1px 1px at 30% 75%, rgba(255,255,255,0.7), transparent),
           radial-gradient(2px 2px at 5% 10%, rgba(220,255,230,0.6), transparent),
           radial-gradient(1px 1px at 35% 90%, rgba(255,255,255,0.8), transparent),
@@ -35,7 +35,7 @@
           radial-gradient(circle at 65% 45%, rgba(31, 203, 246, 0.345) 0%, transparent 35%);
         background-color: theme('colors.star-green');
         background-repeat: no-repeat;
-        /* 边缘渐变过渡，避免硬边界 */
+        /* 边缘渐变过渡 */
         mask-image: linear-gradient(to right, black 85%, transparent 100%);
         -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
       }
@@ -50,7 +50,7 @@
           radial-gradient(3px 1px at 10% 25%, rgba(255,255,255,0.8), transparent),
           radial-gradient(2px 2px at 30% 40%, rgba(220,240,255,0.9), transparent),
           radial-gradient(1px 1px at 60% 15%, rgba(255,255,255,0.7), transparent),
-          radial-gradient(3px 3px at 80% 60%, rgba(220,240,255,0.95), transparent), /* 亮星 */
+          radial-gradient(3px 3px at 80% 60%, rgba(220,240,255,0.95), transparent),
           radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,0.6), transparent),
           radial-gradient(2px 2px at 70% 30%, rgba(220,240,255,0.8), transparent),
           radial-gradient(3px 1px at 20% 5%, rgba(255,255,255,0.7), transparent),
@@ -62,7 +62,8 @@
           radial-gradient(circle at 0% 40%, rgba(19, 155, 253, 0.47) 0%, transparent 20%);
         background-color: theme('colors.star-blue');
         background-repeat: no-repeat;
-        /* 边缘渐变过渡，与左侧融合 */
+        /* 边缘渐变过渡 */
         mask-image: linear-gradient(to left, black 85%, transparent 100%);
         -webkit-mask-image: linear-gradient(to left, black 85%, transparent 100%);
+
       }
