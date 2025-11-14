@@ -44,10 +44,10 @@
   font-size: 18px;
   margin-bottom: 15px;
   font-weight: 400;
-  color: #aaaaaae3; /* 白色突出标题 */
+  color: #aaaaaae3; 
 }
 
-/* 友情链接列表：横向排列 + 换行 */
+/* 友情链接列表 */
 .links {
   list-style: none;
   padding: 0;
@@ -69,10 +69,10 @@
 }
 
 .links li a:hover {
-  color: #fff; /*  hover 时变白 */
+  color: #fff; 
 }
 
-/* 社交图标：圆形背景 + 居中 */
+/* 社交图标 */
 .social-icons {
   display: flex;
 }
@@ -118,11 +118,11 @@
 }
 
 .icon:hover {
-  background-color: #555; /* hover 时加深背景 */
+  background-color: #555;
   color: #fff;
 }
 
-/* 响应式：小屏幕下纵向堆叠 */
+/* 响应式 */
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
@@ -131,4 +131,5 @@
     width: 100%;
     margin-bottom: 30px;
   }
+
 }
