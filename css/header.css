@@ -26,8 +26,8 @@
   gap: 30px;
   margin: 0 20px;
   margin-left: -320px;
-  display: flex; /* 横向排列导航项 */
-  align-items: center; /* 垂直居中（顶部对齐可改用flex-start） */
+  display: flex; 
+  align-items: center; 
   padding: 0;
   list-style: none;
 }
@@ -419,4 +419,5 @@
   transform: scale(1.1);
   transition: all 0.25s ease;
 }
+
 
