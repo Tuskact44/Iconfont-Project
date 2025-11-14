@@ -1,0 +1,48 @@
+/* AI图标生成 */
+.ai-style-section {
+  margin-top: -30px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 24px;
+  text-align: left;
+  margin-left: -60px;
+}
+
+.style-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+.style-btn.first-child{
+  margin-left: 60px;
+}
+.style-btn img{
+  width: 260px;
+  height: 78px;
+  display: inline-block;
+  position: relative;
+}
+.style-btn span{
+  font-size: 17px;
+  text-align: center;
+  position: absolute;
+  margin-top: 34px;
+  margin-left: 24px;
+}
+
+.style-btn {
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.3s;
+  flex: 1;
+}
+.style-btn:hover{
+  transform: scale(1.025);
+}

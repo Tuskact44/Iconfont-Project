@@ -1,0 +1,118 @@
+/* 素材平台介绍 */
+.platform-intro {
+  margin-bottom: 60px;
+  margin-top: 40px;
+  background-color: black;
+}
+.platform-intro .section-title{
+  text-align: center;
+  font-size: 40px;
+  margin-left: 45px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.section-desc {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro-tabs {
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  margin-left: 470px;
+  overflow: hidden;
+  border: 1px solid white;
+  width:240px;
+  border-radius: 24px;
+}
+
+.intro-tab {
+  padding: 8px 20px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 24px;
+  transition: all 0.3s;
+  width: 130px;
+}
+
+.intro-tab.active {
+  background-color: #ffffff;
+  color: #050914;
+  font-weight: 500;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro-features {
+  max-width: 350px;
+}
+
+.feature-title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.highlight {
+
+  background: linear-gradient(90deg,rgb(187, 250, 132),rgb(22, 247, 255),rgb(9, 124, 255));
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+
+  color: transparent;
+
+}
+
+.feature-desc {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  line-height: 1.8;
+  width: 250px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.638);
+}
+
+.feature-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.638);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: color 0.3s;
+  width: 250px;
+}
+
+.feature-list li:hover {
+  color: #00f0ff;
+}
+
+.intro-preview {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.intro-preview video {
+  max-width: 510px;
+  width: 100%;
+  display: block;
+}

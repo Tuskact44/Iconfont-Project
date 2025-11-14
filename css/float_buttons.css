@@ -1,0 +1,133 @@
+/* 右侧悬浮按钮 */
+.float-buttons {
+  position: fixed;
+  right: 250px;
+  top: 35%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 998;
+}
+
+
+.float-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.float-buttons .feedback img{
+  height: 80px;
+  width: 70px;
+}
+.float-btn img{
+  height: 30px;
+  width: 30px;
+}
+
+.float-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #00f0ff;
+  transform: scale(1.1);
+}
+
+.float-btn .cart-count {
+  top: -5px;
+  right: -5px;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+}
+
+/* 响应式适配 */
+@media (max-width: 992px) {
+  .main-nav {
+    gap: 20px;
+  }
+  
+  .intro-content {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-right: 0;
+  }
+  
+  .header-inner {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .main-nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0 0;
+  }
+  
+  .hero-title {
+    font-size: 32px;
+  }
+  
+  .resource-grid {
+    flex-wrap: wrap;
+  }
+  
+  .creator-cards {
+    flex-wrap: wrap;
+  }
+  
+  .creator-card {
+    width: 100%;
+  }
+  
+  .float-buttons {
+    right: 10px;
+  }
+  
+  .float-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-item {
+    font-size: 13px;
+  }
+  
+  .tag-new {
+    right: -30px;
+    font-size: 9px;
+  }
+  
+  .hero-title {
+    font-size: 26px;
+  }
+  
+  .search-box {
+    height: 44px;
+  }
+  
+  .style-btn {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

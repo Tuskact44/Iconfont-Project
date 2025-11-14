@@ -1,0 +1,129 @@
+/* 英雄区 */
+.hero-section {
+  padding: 60px -20px 80px;
+  margin-top: 10px;
+}
+
+.hero-section .hero-title img{
+  width: 370px;
+  height: 42px;
+  margin-left: 427px;
+  margin-top: 31px;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: snow;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.search-container {
+  max-width: 1000px;
+  margin: 0 auto 60px;
+  margin-top: 20px;
+}
+
+.search-tabs {
+  display: flex;
+  margin-bottom: 10px;
+}
+.search-container .search-tabs{
+  margin-left: 18px;
+}
+.search-tab {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 4px 4px 0 0;
+  font-weight: 530;
+  transition: all 0.3s ease;
+}
+.search-tabs button{
+  border-radius: 20px;
+  margin-right: 9px;
+}
+
+.search-tabs button.active{
+  background: linear-gradient(90deg,#76e5ac, #1bd3eb,#0940f4);
+  color: black;
+}
+
+.search-tabs.active:hover{
+  background: linear-gradient(90deg,#76e5ac, #1bd3eb,#0940f4);
+}
+
+.search-box {
+  display: flex;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  height: 60px;
+  width: 1000px;
+  border-radius: 24px;
+  margin-left: 25px;
+}
+.search-select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.search-box input::placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
+.search-btn {
+  width: 50px;
+  color: rgba(255,255,255,0.7);
+  font-size: 18px;
+  transition: color 0.3s;
+  border-radius: 30px;
+}
+.search-box img{
+  margin-top: 5px;
+  width: 35px;
+  height: 35px;
+}
+.search-box::before,
+.search-box::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  opacity: 0; /* 默认透明 */
+  transition: opacity 0.3s ease;
+}
+.search-box::before {
+  top: 0;
+  background: linear-gradient(90deg, #4facfe, #00e49f);
+}
+
+/* 下边框：绿→蓝渐变（左到右，对称效果） */
+.search-box::after {
+  bottom: 0;
+  background: linear-gradient(90deg, #00e49f, #4facfe);
+}
+
+
+.search-btn:hover {
+  color: #00f0ff;
+}

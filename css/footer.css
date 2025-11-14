@@ -1,0 +1,134 @@
+/* 底部容器 */
+.footer {
+  background-color: #222; 
+  color: #aaaaaad4; 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 300px;
+}
+
+
+.footer .footer-left .logo{
+  height: 80px;
+  width: 110px;
+  margin-left: 295px;
+}
+.footer .p2 p img{
+  height: 20px;
+  width: 20px;
+}
+
+.footer-left, .footer-right {
+  width: 48%;
+}
+
+
+/* 左侧 */
+.footer-left p {
+  line-height: 1.6;
+  margin-bottom: 8px;
+  font-size: 12px;
+  margin-left: 300px;
+  line-height: 12px;
+}
+.footer-left .p2 {
+  margin-top: 30px;
+}
+.footer-right{
+  margin-top: 25px;
+}
+/* 右侧 */
+.footer-right h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #aaaaaae3; /* 白色突出标题 */
+}
+
+/* 友情链接列表：横向排列 + 换行 */
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.links li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.links li a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  color: #fff; /*  hover 时变白 */
+}
+
+/* 社交图标：圆形背景 + 居中 */
+.social-icons {
+  display: flex;
+}
+.social-icon {
+  border: 3px solid #aaaaaa90; 
+  border-radius: 50%;
+  width: 37px; 
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: 0 5px; 
+}
+
+.social-icon img {
+  width: 20px; 
+  height: 20px;
+  object-fit: contain; 
+  margin-top: 5px;
+}
+/* 图标变亮 */
+.social-icons .social-icon:hover img{
+  filter: brightness(0) invert(1);
+}
+.social-icons :hover{
+  filter: none;
+  border-color: rgba(255, 255, 255, 0.753);
+  border-radius: 50%;
+}
+
+
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #aaa;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.icon:hover {
+  background-color: #555; /* hover 时加深背景 */
+  color: #fff;
+}
+
+/* 响应式：小屏幕下纵向堆叠 */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer-left, .footer-right {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
