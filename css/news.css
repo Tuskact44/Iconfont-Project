@@ -29,7 +29,6 @@
 
 .news-card:hover {
   /* transform: translateY(-5px); */
-
 }
 
 .news-tag {
@@ -51,3 +50,4 @@
   width: 320px;
   border-radius: 17px;
 }
+
