@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿里巴巴矢量库复刻 - iconfont Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_xxxxxxx.css"> 
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="navbar-content container">
+            <div class="nav-left">
+                <a href="#" class="logo">
+                    <i class="iconfont icon-logo"></i> iconfont
+                </a>
+                <nav>
+                    <a href="#">首页</a>
+                    <a href="#">素材库</a>
+                    <a href="#">资源管理</a>
+                    <a href="#">活动</a>
+                    <a href="#">AI工具</a>
+                    <a href="#">帮助</a>
+                </nav>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-box">
+                    <input type="text" placeholder="搜索图标/插画/文字">
+                    <button><i class="iconfont icon-search"></i></button> </div>
+                <div class="user-actions">
+                    <i class="iconfont icon-message"></i> <i class="iconfont icon-upload"></i> <div class="user-avatar">
+                        <img src="placeholder-avatar.jpg" alt="用户头像">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section class="hero-section">
+            <h1 class="hero-title">让设计更简单专业的素材平台 [cite: 44]</h1>
+            <p class="hero-subtitle">iconfont 帮助你整理、创作与协作 [cite: 45]</p>
+            <div class="hero-buttons">
+                <button class="btn btn-guide">使用指南 [cite: 46]</button>
+                <button class="btn btn-asset">素材资产 [cite: 47]</button>
+            </div>
+            <div class="main-categories">
+                <div class="category-list">
+                    <a href="#">矢量插画 [cite: 40]</a>
+                    <a href="#">3D 插画 [cite: 41]</a>
+                    </div>
+                <div class="illustration-preview">
+                    </div>
+            </div>
+        </section>
+
+        <section class="material-explore-section">
+            </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-info">
+                <i class="iconfont icon-logo"></i> iconfont
+                <p>版权信息、法律声明等文本...</p>
+            </div>
+            <div class="footer-links">
+                <h3>友情链接 [cite: 50]</h3>
+                <nav>
+                    <a href="#">链接1</a>
+                    <a href="#">链接2</a>
+                    </nav>
+            </div>
+        </div>
+    </footer>
+
+    <div class="side-toolbar">
+        <button class="toolbar-item" id="cart-button">
+            <i class="iconfont icon-cart"></i> </button>
+        <button class="toolbar-item" id="top-button">
+            <i class="iconfont icon-arrow-up"></i> </button>
+    </div>
+
+    <div class="side-drawer" id="side-drawer">
+        <div class="drawer-header">
+            <h3>购物车</h3>
+            <button id="close-drawer">X</button>
+        </div>
+        <div class="drawer-content">
+            <p id="cart-status">购物车是空的</p>
+        </div>
+    </div>
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
