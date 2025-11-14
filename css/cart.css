@@ -14,7 +14,7 @@
 
 /* 购物车弹窗容器 */
 .cart-modal {
-  width: 360px;
+  width: 320px;
   height: 100vh;
   background-color: #ffffff;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
@@ -133,3 +133,4 @@
   background-color: #0f62d8;
 
 }
+
