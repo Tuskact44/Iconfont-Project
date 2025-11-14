@@ -117,7 +117,7 @@
   background: linear-gradient(90deg, #4facfe, #00e49f);
 }
 
-/* 下边框：绿→蓝渐变（左到右，对称效果） */
+
 .search-box::after {
   bottom: 0;
   background: linear-gradient(90deg, #00e49f, #4facfe);
@@ -126,4 +126,5 @@
 
 .search-btn:hover {
   color: #00f0ff;
+
 }
