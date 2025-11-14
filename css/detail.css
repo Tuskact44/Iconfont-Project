@@ -1,8 +1,8 @@
-/* 作者信息区域样式 */
+/* 作者信息区域 */
 .author-header {
   position: relative;
   color: #fff;
-  padding: 30px 0; /* 增加内边距提升视觉呼吸感 */
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -12,13 +12,13 @@
   width: 2100px;
   height: 170px;
   background-color: #1a1a1a;
-  opacity: 0.95; /* 稍加深背景提升文字对比度 */
+  opacity: 0.95;
 }
 
 .author-header-container {
   display: flex;
   align-items: flex-start;
-  position: relative; /* 确保内容在背景上层 */
+  position: relative;
   width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -34,8 +34,8 @@
   right: 100px;
 }
 .author-header-container {
-  width: 100%; /* 改为自适应宽度 */
-  padding: 0 15px; /* 调整内边距，适配小屏幕 */
+  width: 100%; /
+  padding: 0 15px; 
 }
 
 .avatar-inner {
@@ -59,7 +59,7 @@
 
 }
 
-/* 作者信息内容样式 */
+/* 作者信息 */
 .author-info {
   flex: 1;
   padding: 8px 0;
@@ -129,7 +129,7 @@
   color: #fff;
 }
 
-/* 作者信息区按钮 */
+/* 作者信息按钮 */
 .action-buttons {
   display: flex;
   justify-content: flex-end
@@ -154,7 +154,7 @@
 /* 搜索按钮特殊样式 */
 .search-btn {
   width: auto;
-  border-radius: 21px; /* 保持圆形弧度 */
+  border-radius: 21px; 
 }
 
 .search-input {
@@ -400,7 +400,7 @@
 
 
 
-/* 响应式适配（补充小屏幕调整） */
+/* 响应式适配 */
 @media (max-width: 1200px) {
   .author-header-container,
   .wrap {
@@ -445,4 +445,5 @@
   .action-buttons {
     margin-top: 15px;
   }
+
 }
