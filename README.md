@@ -35,7 +35,7 @@ b.项目实践
 
 1.4 **GITHUB**  
   - 学习了Git的基本命令（如git init 、git add 、git commit 、git push 等）  
-  - 在Github或Gittee上创建仓库，并将项⽬代码提交到仓库中
+  - 在Github上创建仓库，并将项⽬代码提交到仓库中
 
 1.5 **Markdown**
   - 学会用Markdown基础语法写Readme
