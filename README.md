@@ -14,8 +14,8 @@
 1.2 **CSS**  
 a. 具体内容  
   - 学习了CSS选择器（类选择器、ID选择器、伪类选择器等）
-  - 学习CSS布局⽅式（如`<float>`、`<position>`、`<flexbox>`、`<grid>`）
-  - 掌握CSS的基本属性（如`<color>`、`<background>`、`<margin>`、`<padding`>）
+  - 学习CSS布局⽅式（如`float`、`position`、`flexbox`、`grid`）
+  - 掌握CSS的基本属性（如`color`、`background`、`margin`、`padding`）
   - 学习CSS3的flex布局，实现响应式设计
   - 学习CSS的⾼级选择器和伪类（如:hover、:focus、:nth-child等）  
     
